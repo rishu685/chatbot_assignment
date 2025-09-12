@@ -2,7 +2,7 @@
 
 A sophisticated chatbot that uses Google's Gemini AI to answer questions about any website's content. Simply provide a URL, and the chatbot will scrape the website content and be able to answer questions about it using Google's powerful AI model.
 
-## 🚀 Features
+#  Features
 
 - **Smart Web Scraping**: Extracts title, content, headings, links, and metadata from any website
 - **Google Gemini Integration**: Uses Google's latest Gemini 1.5 Flash model for intelligent responses
@@ -11,7 +11,7 @@ A sophisticated chatbot that uses Google's Gemini AI to answer questions about a
 - **Conversation Memory**: Maintains conversation context for natural dialogue
 - **Multiple Commands**: Built-in help, info, and website switching capabilities
 
-## 📋 Requirements
+# Requirements
 
 - Python 3.9 or higher
 - Google Gemini API key (get one at https://makersuite.google.com/app/apikey)
@@ -34,7 +34,7 @@ A sophisticated chatbot that uses Google's Gemini AI to answer questions about a
    export GOOGLE_API_KEY="your-api-key-here"
    ```
 
-## 🎯 Usage
+# Usage
 
 1. **Run the chatbot**
    ```bash
@@ -53,7 +53,7 @@ A sophisticated chatbot that uses Google's Gemini AI to answer questions about a
    - `new url` - Switch to a different website
    - `quit`, `exit`, or `bye` - End the conversation
 
-## 💡 Example Session
+##  Example Session
 
 ```
 🤖 Website Content Chatbot (Powered by Google Gemini)
@@ -102,11 +102,11 @@ You: help
 • 'quit', 'exit', 'bye' - End the conversation
 ```
 
-## 🏗️ Architecture
+## Architecture
 
 The chatbot consists of three main components:
 
-### 1. WebsiteContentExtractor
+## 1. WebsiteContentExtractor
 - Handles HTTP requests with proper headers
 - Extracts content using BeautifulSoup
 - Processes and cleans website data
@@ -124,7 +124,7 @@ The chatbot consists of three main components:
 - Handles setup and configuration
 - Provides command processing
 
-## 🔧 Configuration
+## Configuration
 
 ### Environment Variables
 - `GOOGLE_API_KEY`: Your Google Gemini API key
@@ -139,14 +139,13 @@ The chatbot consists of three main components:
 - Wikipedia articles
 - And many more!
 
-## ⚠️ Limitations
-
+#Limitation
 - Some websites may block automated requests
 - JavaScript-heavy sites might not be fully scraped
 - Very large websites are limited to first 5000 characters
 - API rate limits may apply based on your Google Cloud plan
 
-## 🆘 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -168,11 +167,11 @@ The chatbot consists of three main components:
    - Ensure all dependencies are installed: `pip install -r requirements.txt`
    - Check Python version (3.9+ required)
 
-## 📄 License
+## License
 
 This project is provided for educational purposes. Please ensure you comply with website terms of service when scraping content.
 
-## 🤝 Contributing
+##  Contributing
 
 This is an assignment project, but suggestions and improvements are welcome!
 
