@@ -182,6 +182,10 @@ This is an assignment project, but suggestions and improvements are welcome!
 - [Google Gemini Documentation](https://ai.google.dev/docs) - API documentation
 - [Beautiful Soup Documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) - Web scraping guide
 
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 ---
 
 **Note**: This chatbot is designed for educational purposes to demonstrate web scraping and AI integration. Always respect robots.txt and website terms of service when scraping content.
